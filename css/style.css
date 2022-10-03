@@ -1,0 +1,121 @@
+:root {
+    --cowhite: white;
+}
+
+body {
+    background-color: #292929;
+}
+
+/* style for the header and nav  */
+.container header img {
+    width: 30px;
+}
+
+.container header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.container header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.container header nav ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.container header nav ul li {
+    padding: 5px;
+}
+
+.container header nav ul li a {
+    text-decoration: none;
+    color: var(--cowhite);
+    font-weight: normal;
+}
+
+/* style for the body */
+.contant {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contant .text {
+    width: 50%;
+    /* flex: 2; */
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.contant h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.contant p {
+    font-weight: normal;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.contant .image {
+    width: 40%;
+    text-align: center;
+}
+
+.contant .image img {
+    width: 180px;
+}
+
+.contant .text a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 8px 10px;
+    width: auto;
+    margin: 5px auto;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+
+}
+
+
+.icons img {
+    width: 40px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    background: linear-gradient();
+}
